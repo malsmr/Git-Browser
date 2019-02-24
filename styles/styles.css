@@ -1,0 +1,133 @@
+body {
+  background-color: #ffffff;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #fa3939;
+  margin: 0.2em;
+  font-size: 3em;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  margin: 0.2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #0e41b1;
+}
+
+
+.repos {
+  margin-top: 80px;
+}
+.repos h3 {
+  text-align: center;
+}
+.repos ul li {
+  display: inline-block;
+  width: 28%;
+  height: 130px;
+  margin: 20px;
+  text-align: center;
+  background-color: #c9c9c9;
+  color: #d62b2b;
+  border: 1px solid rgb(13, 14, 13);
+  border-radius: 5px;
+  padding: 15px 5px;
+}
+span.repoName {
+  font-size: 2em;
+  font-weight: 600;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+span.errorMessage {
+  font-size: 1em;
+  font-weight: 600;
+  color: #e61515;
+}
+span.forkcount {
+  font-size: 1em;
+  font-weight: 300;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+.repos button {
+  background-color: #ffffff;
+  padding: 10px 25px;
+  font-size: 1em;
+  border: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+form {
+  width: 300px;
+  display: block;
+  margin: 100px auto 0;
+}
+form label {
+  display: block;
+  color: #1f1a1a;
+  font-weight: 800;
+  text-align: center;
+  font-size: 1.4em;
+}
+input {
+  display: block;
+  height: 50px;
+  margin: 5px 0;
+  font-size: 1em;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
+input[type='text'] {
+  border: none;
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+input[type='submit'] {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: rgb(12, 19, 27);
+  color: #ffffff;
+  margin: 30px auto 0;
+}
+
+
+#modal-content h3 {
+  text-align: center;
+}
+
+#modal-content ul {
+  padding-right: 40px;
+}
+
+#modal-content ul li {
+  margin: 35px 0;
+}
+
+#modal-content ul li a {
+  text-align: right;
+  display: block;
+  color: rgb(71, 58, 58);
+}
